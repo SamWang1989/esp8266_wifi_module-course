@@ -1,0 +1,16 @@
+title: ESP8266_WIFI_MODULE
+description: Aim to set the esp8266_wifi_module SPI baud ≥ 1Mbps
+template:
+  repo: esp8266_wifi_module-template
+  name: esp8266_wifi_module
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
